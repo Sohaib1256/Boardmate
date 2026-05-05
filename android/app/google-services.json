@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "279627868095",
+    "firebase_url": "https://temp-and-moist-monitor-default-rtdb.firebaseio.com",
+    "project_id": "temp-and-moist-monitor",
+    "storage_bucket": "temp-and-moist-monitor.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279627868095:android:491ddd7cf22c774ef0a30a",
+        "android_client_info": {
+          "package_name": "com.example.best_flutter_ui_templates"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGKWdHfZKOyi-i9LvX33R_PXCD2_duQb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

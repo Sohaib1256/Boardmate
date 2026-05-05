@@ -1,0 +1,21 @@
+# -------------------------------------------------------
+# local.properties — Machine-Specific SDK Configuration
+# -------------------------------------------------------
+# INSTRUCTIONS FOR CLIENT / NEW DEVELOPER:
+#   1. Copy this file and rename it to: local.properties
+#   2. Replace the placeholder paths below with the actual
+#      paths to your Android SDK and Flutter SDK on your machine.
+#   3. DO NOT commit local.properties to version control.
+# -------------------------------------------------------
+
+# Path to your Android SDK installation
+# Example (Windows): C:\\Users\\YourName\\AppData\\Local\\Android\\Sdk
+sdk.dir=C:\\Path\\To\\Your\\AndroidSDK
+
+# Path to your Flutter SDK installation
+# Example (Windows): C:\\src\\flutter
+flutter.sdk=C:\\Path\\To\\Your\\flutter
+
+flutter.buildMode=release
+flutter.versionName=1.0.0
+flutter.versionCode=1

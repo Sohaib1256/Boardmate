@@ -1,0 +1,50 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "temp-and-moist-monitor",
+          "appId": "1:279627868095:android:491ddd7cf22c774ef0a30a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "temp-and-moist-monitor",
+          "configurations": {
+            "android": "1:279627868095:android:491ddd7cf22c774ef0a30a",
+            "ios": "1:279627868095:ios:29114d42342e171ff0a30a",
+            "macos": "1:279627868095:ios:29114d42342e171ff0a30a",
+            "web": "1:279627868095:web:f7d848df37607b45f0a30a",
+            "windows": "1:279627868095:web:f80d97766efb8bdcf0a30a"
+          }
+        }
+      }
+    }
+  },
+  "auth": {
+    "providers": {
+      "anonymous": false,
+      "emailPassword": true
+    }
+  },
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint",
+        "npm --prefix \"$RESOURCE_DIR\" run build"
+      ]
+    }
+  ]
+}
