@@ -53,3 +53,6 @@ BoardMate is a premium Flutter-based educational application specifically design
 
 ---
 *Developed with ❤️ for the students of Sindh.*
+
+## 🔗 Let's Connect
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sohaib-sheikh-388a9036a/)
